@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="enter.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap"
+      rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="black-screen" id="black-screen"></div>
+    <main id="main-content">
+      <section class="section-container">
+        <h1>
+          Happy Birthday Looser!!!!
+        </h1>
+
+        <ul>
+
+          <li class="li-green ">💰 Focus on you Dream!!</li>
+          <li class="li-yellow">💐 Master Anything you can Dream</li>
+          <li class="li-blue">💜 Never Stop Becoming Better</li>
+          <li class="li-pink">☕ Always get Coffee in the Morning</li>
+        </ul>
+        <button class="button" onclick="func()">
+          Secret 1 :)
+        </button>
+
+        <button class="buttons" onclick="func1()">
+          Secret 2 :)
+        </button>
+
+      </section>
+    </main>
+
+    <div class="modal" id="modal">
+      <div class="close-modal-btn-container">
+        <button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+      </div>
+      <div class="modal-inner" id="modal-inner">
+        <h2>Welcome ❤️ Stranger!</h2>
+        <p style="text-align:center;font-family:Cursive;font-size:18px;
+        font-style:italic;font-weight:bold;font-variant:small-caps;
+        letter-spacing:1px;line-height:18px;
+        text-indent:30px;color:#B57F50;">Happy 19th birthday, funny stranger!
+          🎉🎂 May your day be filled with laughter, unexpected surprises, and
+          hilarious moments. May your cake be as sweet as your sense of humor,
+          and may your birthday be a perfect blend of joy and comedic
+          adventures. What shall you see? A name and email will do the trick.
+          Can't press decline :)</p>
+
+        <form id="consent-form">
+          <div class="input">
+            <input
+              id="inputs"
+              class="input"
+              type="text"
+              name="fullName"
+              placeholder="Enter your full name"
+              required />
+            <p id="message"></p>
+            <input
+              type="email"
+              name="email"
+              class="input"
+              placeholder="Enter your email"
+              required />
+          </div>
+          <div class="modal-choice-btns" id="modal-choice-btns">
+            <button type="submit" class="modal-btn button2">Accept</button>
+            <button class="modal-btn button2" id="decline-btn">Decline</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="enter.js"></script>
+  </body>
+</html>
