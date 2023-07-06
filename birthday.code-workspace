@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../hello"
+		},
+		{
+			"path": "coc46466ab798680b94431edb/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hello"
+	}
+}
